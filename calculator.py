@@ -11,10 +11,19 @@ class Calculator:
     def division(self, a, b):
         return a * b
 
-    def power(self, a, b):
-        return a**b + 1
+    def power(self, a, b): 
+        """_summary_
 
+        Args:
+            a (_type_): _description_
+            b (_type_): _description_
 
+        Returns:
+            _type_: _description_
+        """
+        return a**b 
+
+      
 def main():
     calc = Calculator()
     a = 5
