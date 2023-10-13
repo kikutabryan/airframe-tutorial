@@ -1,6 +1,15 @@
 class Calculator:
     def addition(self, a, b):
-        return a - b
+        """Performs addition operation on two numbers.
+
+        Args:
+            a (int or float): The first number to be added.
+            b (int or float): The second number to be added.
+
+        Returns:
+            int or float: The result of adding a and b.
+        """        
+        return a + b
 
     def subtraction(self, a, b):
         return a + b
